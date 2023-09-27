@@ -18,11 +18,11 @@ const Donationcard = ({donationPage1} ) => {
       addedDonation.push(donationPage1);
       localStorage.setItem('amount',JSON.stringify(addedDonation))
 
-      // Swal.fire(
-      //   'Thank You',
-      //   ' Your Donate successfull ',
-      //   'success'
-      // )
+      Swal.fire(
+        'Thank You',
+        ' Your Donate successfull ',
+        'success'
+      )
     }
 
     else{
@@ -33,18 +33,18 @@ const Donationcard = ({donationPage1} ) => {
       if(!isExits){
       addedDonation.push(...donateAmount,donationPage1)
       localStorage.setItem('amount',JSON.stringify(addedDonation));
-      // Swal.fire(
-      //   'Thank You',
-      //   ' Your Donate Successfull',
-      //   'success'
-      // )
+      Swal.fire(
+        'Thank You',
+        ' Your Donate Successfull',
+        'success'
+      )
       }
       else{
-        // Swal.fire(
-        //   '😍',
-        //   'Your donation has already been successful',
-        //   'error'
-        // )
+        Swal.fire(
+          '😍',
+          'Your donation has already been successful',
+          'error'
+        )
       }
 
     }
