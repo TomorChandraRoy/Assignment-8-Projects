@@ -46,7 +46,7 @@ const Donation = () => {
             }
             </div>
 
-            {/* <div>
+            <div>
                 {
             donation.length>  4 &&
 
@@ -55,7 +55,7 @@ const Donation = () => {
             }
             </button>
                 }
-            </div> */}
+            </div>
         </div>
         )}
         </div>
