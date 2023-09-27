@@ -6,12 +6,12 @@ const Statistics = () => {
   let lokalTk = 0;
 
   const allData = useLoaderData();
-  // setAll(allData.length)
+
   allData.forEach((element) => {
     const price = element.donate;
     totalData = totalData + price;
   });
-  // console.log(totalData);
+
 
   const lokalData = JSON.parse(localStorage.getItem("amount"));
   if(lokalData){
@@ -23,7 +23,7 @@ const Statistics = () => {
   else{
     ''
   }
-  // console.log(lokalTk);
+
 
   return (
     <div className="ml-20 my-10">
