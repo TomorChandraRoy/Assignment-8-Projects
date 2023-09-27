@@ -3,6 +3,7 @@ import DonationPage from "../../Components/Donation/DonationPage/DonationPage";
 
 
 
+
 const Donation = () => {
 
     const[donation, setDonation] =useState([]);
@@ -17,7 +18,7 @@ const Donation = () => {
             setDonation(donateAmount)
         }
         else{
-            setFound(<h1 className="font-extrabold text-2xl">No Data Found Plz Add Donation Card </h1>)
+            setFound(<h1 className="font-extrabold text-2xl">No Data  Plz Add Donation Card </h1>)
         }
 
     }, []);
@@ -45,17 +46,16 @@ const Donation = () => {
 
             }
             </div>
-
-            <div>
+        
+            <div className={isShowAll ? 'hidden' : 'block' }>
                 {
-            donation.length>  4 &&
-
-            <button  onClick={()=>setIsShowAll(!isShowAll)}  className="px-4 py-2 text-xl bg-[#009444] block mx-auto my-5 rounded font-bold text-white"> {
-                isShowAll ? '' : 'See All'
-            }
-            </button>
+              donation.length >  4 &&
+               <button  onClick={()=>setIsShowAll(!isShowAll)}  className="px-4 py-2 text-xl bg-green-400  block mx-auto my-5 rounded font-bold text-white">
+               See All
+               </button>
                 }
             </div>
+
         </div>
         )}
         </div>

@@ -1,4 +1,4 @@
-  <!-- # Added 3 project features :
+  # Added 3 project features :
 
 ## Loaders :
 Loaders are a powerful new feature in React Router that can help you improve the performance and user experience of your applications. To use a loader, you simply need to define a loader function for the route. The loader function will be called when the route is navigated, and it should return a Promise that resolves to the data that you want to load. Once the Promise resolves, the data will be made available to the component that is associated with the route.
@@ -24,4 +24,4 @@ The useState hook returns an array with two elements: the current state value an
 ##### Improved performance: 
 The useEffect hook can be used to optimize the performance of your React applications by avoiding unnecessary re-renders.
 ##### Increased flexibility: 
-The useState hook allows you to manage state in a flexible way. You can use it to store any type of data, and you can update the state value at any time. -->
+The useState hook allows you to manage state in a flexible way. You can use it to store any type of data, and you can update the state value at any time.

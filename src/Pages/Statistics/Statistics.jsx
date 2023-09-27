@@ -26,7 +26,7 @@ const Statistics = () => {
 
 
   return (
-    <div className="ml-20 my-10">
+    <div className="ml-12 md:ml-20 my-10">
       <Chart
         type="pie"
         width={"90%"}
