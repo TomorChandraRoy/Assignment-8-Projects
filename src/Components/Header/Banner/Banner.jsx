@@ -23,7 +23,7 @@ setAllCard(fillter)
     <div>
       <div className="h-[70vh] mb-28 mt-10 ">
         <div className="hero min-h-ful ">
-          <img  src="/public/Rectangle 4281.png" alt="" />
+          <img  src="/banner.png" alt="" />
 
           <div className="hero-overlay opacity-90  bg-slate-200 "></div>
   

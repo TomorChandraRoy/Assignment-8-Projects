@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
 
       <nav className="flex justify-between items-center py-5 px-5 shadow-md">
-          <div><img className="w-[150px] " src="/public/Logo.png" alt="" /></div>
+          <div><img className="w-[150px] " src="/Logo.png" alt="" /></div>
         <ul className="flex gap-5  ">
           <li className="font-semibold">
             <NavLink
