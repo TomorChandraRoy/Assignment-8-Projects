@@ -21,7 +21,7 @@ setAllCard(fillter)
 }
   return (
     <div>
-      <div className="h-[70vh] mb-28 mt-10 ">
+      <div className="lg:h-[70vh]  mt-10 ">
         <div className="hero min-h-ful ">
           <img  src="/banner.png" alt="" />
 

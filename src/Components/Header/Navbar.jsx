@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <div>
 
-      <nav className="flex justify-between items-center py-5 px-5 shadow-md">
+      <nav className="flex justify-between items-center py-5 px-5  shadow-md">
           <div><img className="w-[150px] " src="/Logo.png" alt="" /></div>
-        <ul className="flex gap-5  ">
-          <li className="font-semibold">
+        <ul className=" flex gap-5  ">
+          <li className="font-semibold ">
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>

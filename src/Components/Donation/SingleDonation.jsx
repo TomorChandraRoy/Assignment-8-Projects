@@ -9,7 +9,7 @@ const SingleDonation = ({ singleData1 }) => {
 
   return (
     <Link to={`/donationData/${id}`}>
-    <div style={{backgroundColor:style.card_color}}  className="card card-compact bg-base-100 shadow-xl">
+    <div style={{backgroundColor:style.card_color}}  className="card  card-compact bg-base-100 shadow-xl">
      <figure><img src={image} alt="" /></figure>
      <div className="card-body">
         <div className="card-title w-fit">
